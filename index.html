@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="favicon.ico" type="image/xicon" /> -->
+    <link rel="icon" type="image/x-icon" href="
+    favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>PGHub</title>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <div class="main-container">
+        <div class="container-80">
+            <div class="header">
+                <div class="navbar">
+                    <div class="logo nav-block">
+                        <img src="./PGHub4.svg" alt="Logo of PGHub">
+                    </div>
+                    <div class="nav-links nav-block">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <!-- <li><a href="#">Home</a></li> -->
+                        </ul>
+                    </div>
+                    <button id="login_btn" class="nav-block login">Login</button>
+                </div>
+            </div>
+            <div class="search-section">
+                <h1>Find PG and Mess Nearby ...</h1>
+                <p> Home Away from Home 🏡</p>
+                <div class="searchBar">
+                    <!-- <form action="">
+                        <input type="text" placeholder="Enter College/School Name..." class="input">
+                    </form> -->
+                    <form onsubmit="event.preventDefault();" role="search">
+                        <input id="search" type="search" placeholder="Enter College/School Name..." autofocus required class="input"/>
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="section2">
+                <!-- <div class="section2-edit">
+                    <h3>Suggestions :</h3>
+                    <a href="./ReadMore.html">View More</a>
+                </div> -->
+                <div class="place">
+                    <div class="img-place">
+                        <img src="https://nestaway-houses.s3.ap-southeast-1.amazonaws.com/uploads/images/thumb_large_f4c0499b-6230-4635-903c-23df99f0d322.jpg" alt="PG photo">
+                    </div>
+                    
+                    <div class="info-place">
+                        <h2>Sahu PG</h2>
+                        <ul>
+                            <li>Address : Khamharia Road, Junwani, Bhilai C.G.</li>
+                            <li>Rent : &#8377 2600</li>
+                            <li>Facilities : 1 BHK & <a href="#">more</a></li>
+                            <li>less than 2km from SSTC</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="place">
+                    <div class="img-place">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf8S4Q3aO4tyOfJeidwgo-JWDdWqim-iOjahLG1powECmatTY9BIp3wuxDPz1z3bnFf8Q&usqp=CAU" alt="PG photo">
+                    </div>
+                    
+                    <div class="info-place">
+                        <h2>Laxmi Mess</h2>
+                        <ul>
+                            <li>Address : Smriti Nagar, Junwani, Bhilai C.G.</li>
+                            <li>Rent : &#8377 2200/- month</li>
+                            <li>Facilities : Lunch, Dinner & <a href="#">more</a></li>
+                            <li>less than 2km from SSTC</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="place">
+                    <div class="img-place">
+                        <img src="https://is1-2.housingcdn.com/01c16c28/677df099f2d3977cc21cb524086a3111/v0/fs/3_rk_-for-rent-siri_fort-New+Delhi-bedroom.jpg" alt="PG photo">
+                    </div>
+                    
+                    <div class="info-place">
+                        <h2>Gupta PG</h2>
+                        <ul>
+                            <li>Address : Model Town, Bhilai C.G.</li>
+                            <li>Rent : &#8377 3200</li>
+                            <li>Facilities : 1 BHK & <a href="#">more</a></li>
+                            <li>less than 3km from SSTC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h3>Built with 💟 from <a href="ByteBusters.html">Byte Busters</a></h3>
+            </div>
+        </div>
+        <div class="popup">
+            <link rel="import" href="login.html">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-80{
+    width: 90em;
+    
+}
+.dev-details{
+    display: flex;
+    /* float: left; */
+}
+.icon-pack img{
+    width: 5em;
+    /* display: inline-block; */
+    /* display: flex; */
+    /* float: left; */
+    height: 20px;
+    width: auto;
+    position: relative;
+}
+.icon-pack p{
+    /* display: flex; */
+    display: inline-block;
+    /* float: left; */
+}
+.dev-image{
+    /* width: 20%; */
+    height: 16em;
+    width:14.8em;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* margin: 5px; */
+    /* padding: 20px; */
+    
+}
+.dev{
+    width: 15em;
+    border: 2px solid green;
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+    border-radius: 20px;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+    /* transform: translate(-50%, -50%); */
+  }
+  
+  .fa-github{
+    background: black;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    /* position: relative; */
+    /* transform: translate(-50%, -50%); */
+  }
